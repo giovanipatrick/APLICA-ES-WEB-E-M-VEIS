@@ -1,0 +1,26 @@
+ul > li > a 
+{
+    color:whitesmoke !important;
+}
+
+.text-light,.nav-link
+{
+    text-shadow: 2px 2px black !important;
+}
+
+.nav ul li{
+    float: left;
+}
+
+.logo {
+    position: relative;
+    top: -6px;
+}
+
+.container-fluid{
+    height:30px !important;
+}
+
+body{
+    background-color: whitesmoke;
+}

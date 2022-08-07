@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Giovani Patrick - Desenvolvedor Back-End</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- 
+            As dependências incluidas no projeto são 
+            Bootstrap JS / CSS
+            SWEETALERT2
+        -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="assets/js/main.js"></script>
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+
+    <!-- Menu para visualização Desktop -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+
+        <div class="container-fluid align-items-md-start">
+
+            <ul class="mx-auto text-center navbar-nav">
+
+            <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfólio</a>
+            </li>
+
+            <li class="logo">
+                <a href="">
+                    <img style="width:100px; height:100px;" class="rounded rounded-circle border" src="https://media-exp1.licdn.com/dms/image/C4D03AQGhNDZCOk6VVQ/profile-displayphoto-shrink_800_800/0/1657934004110?e=1665619200&v=beta&t=e8FtWCODMWwghRsILA5j8xWBFODUsk3DFGhmaSb8ZBk"/>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#formacao">Formação</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+            </li>
+
+            </ul>
+
+        </div>
+        
+        </nav>
+
+    <!-- 
+        Todas as 4 páginas estão englobadas no Index 
+        sendo separadas por Sections e acionadas via HREF
+    -->
+    <main class="d-flex" id="main_content">
+
+            <div class="container mt-5 p-3">
+    
+                <!-- Section que representa a página Sobre -->
+                <section id="sobre">
+                    <div class="row">
+
+                        <div class="d-flex justify-content-center text-center col">
+                            <h2>Quem sou eu?</h2>
+                        </div>
+    
+                    </div>
+
+    
+                    <div class="row mt-2">
+                        <div class="d-flex justify-content-center text-center col">
+                            <p>
+                                Um profissional de T.I com anos de experiência no mercado, 
+                                tanto em infraestrutura quanto no desenvolvimento de aplicações com enfase em Back-End. 
+                                Especialista em ferramentas de monitoramento como Zabbix e New Relic, além de um vasto conhecimento em PHP e seus Frameworks.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+
+                            <div class="mx-auto text-center">
+                                <a href="https://www.procob.com" target="__blank">
+                                    <img class="img-thumbnail" src="assets/images/procob.jpeg"/>
+                                </a>
+                            </div>
+
+                            <h4>
+                                Desenvolvedor Back-End Pleno PHP & NodeJS
+                            </h4>
+                            <strong>
+                                PROCOB
+                            </strong>
+                            <ul>
+                                <li>
+                                    Desenvolvimento de novas funcionalidades
+                                </li>
+                                <li>
+                                    Manutenção nas antigas funcionalidades
+                                </li>
+                                <li>
+                                    Configurações em servidores Linux
+                                </li>
+                                <li>
+                                    Práticas de CI/CD
+                                </li>
+                                <li>
+                                    Desenvolvimento de Crawlers
+                                </li>
+                                <li>
+                                    Desenvolvimento de API's para consumo dos Crawlers
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col">
+
+                            <div class="mx-auto text-center">
+                                <a href="https://webcontrolempresas.com.br/" target="_blank">
+                                    <img class="img-thumbnail" src="assets/images/webcontrol.png"/>
+                                </a>
+                            </div>
+
+                            <h4>
+                                Desenvolvedor Back-End Pleno PHP
+                            </h4>
+
+                            <strong>
+                                WEBCONTROL EMPRESAS
+                            </strong>
+
+                            <ul>
+                                <li>
+                                    Desenvolvimento e implementação de API's utilizando Laravel
+                                </li>
+                                <li>
+                                    Manutenção das funcionalidades já presentes no sistema (E-commerce & ERP)
+                                </li>
+                                <li>
+                                    Sincronização de Produtos utilizando WebSocket (Ratchet PHP)
+                                </li>
+                                <li>
+                                    Implementado Check-out Transparente Mercado Pago
+                                </li>
+                                <li>
+                                    Integração com Marketplaces da B2W
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Section que representa a página de portfolio -->
+                <section class="mt-5" id="portfolio">
+
+                    <div class="row">
+
+                        <div class="d-flex justify-content-center text-center col">
+                            <h2>Portfólio</h2>
+                        </div>
+    
+                    </div>
+    
+                    <div class="row mt-3">
+
+                        <div class="col">
+
+                            <div class="mx-auto text-center">
+                                <a href="https://diminua.me" target="__blank">
+                                    <img class="bg-dark img-thumbnail" src="assets/images/dim-logo.svg" style="width:250px; height: 50px;"/>
+                                </a>
+                            </div>
+
+                            <p>
+                                O diminua.me é um encurtador de URL's, atuei no desenvolvimento Front-End e Back-End desta aplicação.
+                            </p>
+
+                        </div>
+
+                        <div class="col">
+
+                            <div class="mx-auto text-center">
+                                <a href="https://admin.cidadeorganizada.com.br" target="__blank">
+                                    <img class="bg-dark img-thumbnail" src="assets/images/floripa.svg" style="width:250px; height: 50px;"/>
+                                </a>
+                            </div>
+
+                            <p>
+                                Cidade Organizada é um software de gestão utilizado pelo setor privado, bem como algumas prefeituras,
+                                atuo no Back-End da aplicação, Back-End este que recebe em media 900 mil requisições por dia.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!-- Section que representa a pagina de formação -->
+                <section class="mt-5" id="formacao">
+                    <div class="row">
+
+                        <div class="d-flex justify-content-center text-center col">
+                            <h2>Formação</h2>
+                        </div>
+    
+                    </div>
+
+                    <div class="row">
+
+                        <div class="col">
+
+                            <div class="mx-auto text-center">
+                                <a href="https://uninter.com" target="__blank">
+                                    <img class="img-thumbnail" src="assets/images/uninter.jpeg" style="width:100px; height: 80px;"/>
+                                </a>
+                            </div>
+
+                            <h4>
+                            UNINTER Centro Universitário Internacional
+                            </h4>
+                            <strong>
+                                Ensino Superior, Análise e Desenvolvimento de Sistemas
+                            </strong>
+                            <p>2017-2019 - Concluído</p>
+                        </div>
+
+                        <div class="col">
+
+                            <div class="mx-auto text-center">
+                                <a href="https://uninter.com" target="__blank">
+                                    <img class="img-thumbnail" src="assets/images/uninter.jpeg" style="width:100px; height: 80px;"/>
+                                </a>
+                            </div>
+
+                            <h4>
+                            UNINTER Centro Universitário Internacional
+                            </h4>
+                            <strong>
+                                Ensino Superior, Gestão da Tecnologia da Informação 
+                            </strong>
+                            <p>2020-2021 - Concluído</p>
+                        </div>
+
+                        <div class="col">
+
+                            <div class="mx-auto text-center">
+                                <a href="https://uninter.com" target="__blank">
+                                    <img class="img-thumbnail" src="assets/images/uninter.jpeg" style="width:100px; height: 80px;"/>
+                                </a>
+                            </div>
+
+                            <h4>
+                            UNINTER Centro Universitário Internacional
+                            </h4>
+                            <strong>
+                                Bacharelado em Engenharia, Engenharia de Software 
+                            </strong>
+                            <p>2022-2025 - Em Progresso</p>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!-- Section que representa a página de Contato -->
+                <section class="mt-5" id="contato">
+                    <div class="row">
+
+                        <div class="d-flex justify-content-center text-center col">
+                            <h2>Contato</h2>
+                        </div>
+    
+                    </div>
+    
+                    <div class="row">
+                        <div class="d-flex justify-content-center text-center col">
+                            <p>
+                                Se interessou e deseja contratar um serviço? 
+                                Entre em contato através do formulário abaixo.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="d-flex justify-content-center text-center col">
+                            <div id="form">
+                                <div class="form-row">
+                                  <div class="form-group col">
+                                    <label for="inputNome"><strong>Nome</strong></label>
+                                    <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+                                  </div>
+                                  <div class="form-group col">
+                                    <label for="inputEmail"><strong>Email</strong></label>
+                                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                                  </div>
+                                  <div class="form-group col mt-2">
+                                    <textarea id="txtDescricao" placeholder="Descreva sua solicitação..."></textarea>
+                                  </div>
+                                </div>
+                                <button id="btn_send" type="submit" class="btn btn-sm btn-dark">Enviar Mensagem</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+
+            </div>
+
+        </main>
+
+    </body>
+</html>
